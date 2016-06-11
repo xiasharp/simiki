@@ -1,8 +1,24 @@
 # Document:
 # http://simiki.org/docs/configuration.html
 
-url: 
-title: 
-keywords: 
-description: 
-author: 
+url: http://xiasharp.github.io/simiki/
+title: the wiki of xiasharp
+keywords: simiki, wiki, xiasharp
+description: the simple wiki of xiasharp using Simiki.
+author: xiasharp
+
+root: /
+source: content
+destination: output
+themes_dir: themes
+theme: simple
+
+category:
+  - name: markdown  # 目录名
+    label: Markdown Learning  # 目录的别名, 生成首页时可以使用
+  - name: git
+    label: Git Learning
+
+default_ext: md
+pygments: true
+debug: false
