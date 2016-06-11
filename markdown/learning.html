@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="Stylesheet" type="text/css" href="/static/css/style.css">
+        <link rel="Stylesheet" type="text/css" href="/static/css/tango.css">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <title>Markdown入门--语法 - the wiki of xiasharp</title>
+        <meta name="keywords" content="simiki, wiki, xiasharp"/>
+        <meta name="description" content="the simple wiki of xiasharp using Simiki."/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body>
+        <div id="container">
+            
+<div id="header">
+  <div id="post-nav"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/#markdown">markdown</a>&nbsp;»&nbsp;Markdown入门--语法</div>
+</div>
+<div class="clearfix"></div>
+<div id="title">Markdown入门--语法</div>
+  <div id="content">
+  <h1 id="_1">代码框</h1>
+<p>在Markdown实现代码框非常简单，只需在要包含的内容两端加上<code>``号即可。</code>Public void getStudentName(Stirng id){
+    Student stu = new Student(id);
+    Return stu.name;
+}`</p>
+<h1 id="_2">标题</h1>
+<p>标题是每篇文章最常用到的格式，在 Markdown中，如果一段文字被定义为标题，只要在这段文字前加<code>#</code>号即可。
+<code># 一级标题</code>
+<code># 二级标题</code>
+<code># 三级标题</code>
+以此类推，总共六级标题，建议在井号后加一个空格，这是最标准的Markdown语法。</p>
+<h1 id="_3">列表</h1>
+<p>熟悉HTML的同学肯定知道有序列表与无序列表的区别，在Markdown下，在文字前加上<code>-</code>或<code>*</code>即可变为无序列表，有序列表则直接在文字前加<code>1.</code> <code>2.</code> <code>3.</code>，符号要与文字加一个字符的空格。
+`####无序列表
+<em> 1
+</em> 2
+* 3</p>
+<h4 id="_4">有序列表</h4>
+<ol>
+<li>1</li>
+<li>2</li>
+<li>3`</li>
+</ol>
+<h1 id="_5">引用</h1>
+<p>如果要引用别处的句子，那么就需要用到引用格式。只需要在文本前加入<code>&gt;</code>这种尖括号(大于号)即可。
+<code>&gt;这里是引用</code></p>
+<h1 id="_6">图片与链接</h1>
+<p>插入链接与插入图片的语法很像，区别在一个!号
+图片：<code>![]()</code>
+链接：<code>[]()</code>
+插入图片的地址需要图床，这里推荐CloudApp 的服务，生成URL地址即可。
+`#### 插入链接
+<a href="http://baidu.com">百度</a></p>
+<h4 id="_7">插入图片</h4>
+<p><img alt="Mou icon" src="http://mouapp.com/Mou_128.png" />`</p>
+<h1 id="_8">粗体与斜体</h1>
+<p>Markdown 的粗体和斜体也非常简单，用两个<code>*</code>包含一段文本就是粗体的语法，用一个<code>*</code>包含一段文本就是斜体的语法。
+例如：*<em>这里是粗体 </em>这里是斜体</p>
+<h1 id="_9">表格</h1>
+<p>表格是我觉得Markdown比较累人的地方，例子如下：
+<code>| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |</code>
+这种语法生成的表格如下：
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |</p>
+<h1 id="_10">分割线</h1>
+<p>分割线的语法只需要三个<code>*</code>号</p>
+</div>
+
+        </div>
+        <div id="footer">
+            <span>
+                Copyright © 2016 xiasharp.
+                Powered by <a href="http://simiki.org/" target="_blank">Simiki</a>.
+            </span>
+        </div>
+        
+    </body>
+</html>
